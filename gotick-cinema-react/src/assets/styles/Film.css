@@ -1,0 +1,38 @@
+.film{
+    display: flex;
+    border: 1px solid #B1EDE8;
+    background-color: #6D435A;
+    height: 373px;
+    margin-bottom: 20px;
+}
+
+.film__poster{
+    width: 250px;
+}
+
+.film-about{
+    padding: 20px;
+    position: relative;
+}
+
+.film-about__top{
+    display: flex;
+    align-items: center;
+}
+
+.film-about__top img{
+    margin-left: 15px;
+}
+
+.film-about__btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-top: 2px solid #B1EDE8;
+    background-color: inherit;
+    color: #fff;
+    cursor: pointer;
+}

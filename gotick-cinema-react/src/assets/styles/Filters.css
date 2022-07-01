@@ -8,10 +8,6 @@ h1,h2,h3{
     margin: 0;
 }
 
-.filters-wrapper{
-    padding: 20px 0;
-}
-
 .filters-box{
     border: 1px solid #B1EDE8;
     width: 300px;
@@ -25,6 +21,11 @@ h1,h2,h3{
 
 .btn_reset{
     margin-bottom: 20px;
+    background-color: #B1EDE8;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
 }
 
 .filter__title{
