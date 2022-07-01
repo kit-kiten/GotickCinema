@@ -1,0 +1,3 @@
+.filter-about__item + .filter-about__item{
+    margin-top: 10px;
+}

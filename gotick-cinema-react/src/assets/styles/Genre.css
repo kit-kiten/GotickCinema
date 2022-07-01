@@ -1,0 +1,3 @@
+.filter-genre__item + .filter-genre__item{
+    margin-top: 10px;
+}

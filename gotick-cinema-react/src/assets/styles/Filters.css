@@ -1,0 +1,74 @@
+select{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+h1,h2,h3{
+    margin: 0;
+}
+
+.filters-wrapper{
+    padding: 20px 0;
+}
+
+.filters-box{
+    border: 1px solid #B1EDE8;
+    width: 300px;
+    background-color: #6D435A;
+    padding: 20px;
+}
+
+.filters__title{
+    margin-bottom: 10px;
+}
+
+.btn_reset{
+    margin-bottom: 20px;
+}
+
+.filter__title{
+    margin-bottom: 10px;
+}
+
+.filter-sort,
+.filter-date,
+.filter-country,
+.filter-genre,
+.filter-about,
+.filters-btn_box{
+    margin-bottom: 20px;
+}
+
+.filter-about label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filter-about label:last-child{
+    margin-bottom: 0;
+}
+
+.filters-btn_box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters-btn__prev,
+.filters-btn__next{
+    width: 125px;
+    height: 30px;
+    background-color: #B1EDE8;
+    border: 1px solid #000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.filters-pagination{
+    text-align: center;
+}
+
+.filter-genre__list{
+    list-style-type: none;
+    padding: 0;
+}

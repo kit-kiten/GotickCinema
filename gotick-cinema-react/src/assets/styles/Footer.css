@@ -1,0 +1,14 @@
+p{
+    margin: 0;
+}
+
+.footer{
+    padding: 10px;
+    background-color: #FF6978;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
